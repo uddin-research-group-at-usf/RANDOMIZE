@@ -17,6 +17,6 @@ Randomization helps to reduce the likelihood of bias and the impact of differenc
    3. This is third
 3. This is third
 
-![first image](http:/Users/hussainwani/Machine Learning/W2_all_features_pred.png)
+![first image](https://github.com/uddin-research-group-at-usf/RANDOMIZE/blob/master/Prediction.png)
 
 
