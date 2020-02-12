@@ -5,18 +5,3 @@ High-throughput DNA methylation arrays are sensitive to bias due to batch effect
 
 Randomization helps to reduce the likelihood of bias and the impact of differences among groups. Randomizing samples can be a tedious, error-prone, and time-consuming task. To facilitate this process, here we present a web-based tool that helps users to randomize samples in a user-friendly and efficient way. The tool is available online at https://coph-usf.shinyapps.io/RANDOMIZE/ and is free to use. 
 
-**abc** the neabubg
-
-1. The quick brown
-2. fox jumps over the lazy dogs
-   1. nested
-   2. second nested
-      * First
-      * Second
-      * Third
-   3. This is third
-3. This is third
-
-![first image](https://github.com/uddin-research-group-at-usf/RANDOMIZE/blob/master/Prediction.png)
-
-
