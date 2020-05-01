@@ -2,10 +2,6 @@
 # This is the user-interface definition of a Shiny web application. You can
 # run the application by clicking 'Run App' above.
 #
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
 
 library(shiny)
 library(shinydashboard)
@@ -61,7 +57,7 @@ header = dashboardPage(
     conditionalPanel(
       condition = "input.items == 'help'",
       h2(strong("Tutorial", style = "color:gray")),
-      h4(p("Sample data and tutorial are available to download.")
+      h4(p("Sample data and tutorial is available to download.")
       ),
       
       br(),
@@ -69,6 +65,12 @@ header = dashboardPage(
       downloadButton("sampledata",'Sample Data'),
       
       downloadButton("TutorialDownl",'Tutorial'),
+      
+      br(),
+      br(),
+      h5(p(" In case of any issue, it can be raised at", 
+           a("Github page issues", href = "https://github.com/uddin-research-group-at-usf/RANDOMIZE/issues"),".",
+           "Additional queries can be sent to ahwani@usf.edu."))
     ),
     
     conditionalPanel(
